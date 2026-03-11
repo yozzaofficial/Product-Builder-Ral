@@ -9,6 +9,6 @@ Regional and municipal tax
 
 TFR (severance pay)
 
-Supports monthly net calculation with 12, 13, or 14 pays
+Supports monthly net calculation with 13, or 14 pays
 
 Designed to estimate realistic take-home pay for different income levels while respecting Italian tax rules.
