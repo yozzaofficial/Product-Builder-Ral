@@ -1,0 +1,183 @@
+#formRedditoAnnuo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.inputRedditoAnnuo {
+  border: none;
+  border-radius: 10px;
+  outline: 0;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  position: relative;
+  padding-left: 40px;
+}
+.formAnnuoSubmit {
+  border: none;
+  background-color: #306be3;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.inputContainerAnnuo {
+  position: relative;
+}
+.searchIcon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+  top: 50%;
+  opacity: 0.7;
+  transform: translateY(-50%);
+}
+.resultContainer {
+  background-color: #b6d2f6;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 10px;
+}
+.resultHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.resultContainer h2 {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #4f6f92;
+}
+.resetResultButton {
+  cursor: pointer;
+  color: #4f6f92;
+}
+.resultDisplay {
+  background-color: #385e71;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px 10px;
+  color: white;
+  text-align: left;
+}
+.emptyResult {
+  opacity: 0.6;
+}
+.filterContract {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+}
+.filterName {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.contractFIlter {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  min-width: 205px;
+}
+.contractFIlter p {
+  cursor: pointer;
+}
+.filterActive {
+  box-shadow: 0px 0px 1px 1px white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.monthFilter {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+  margin-top: 30px;
+}
+.cityFilter {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+  margin-top: 30px;
+}
+.displayResult {
+  display: grid;
+  grid-template-areas:
+    "result1 result2"
+    "result3 result3";
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 30px;
+  font-size: 1.2em;
+  position: relative;
+}
+.divider {
+  position: absolute;
+  width: 1px;
+  height: 80px;
+  background-color: #385e71;
+  left: 50%;
+  top: 10px;
+}
+.divider2 {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #385e71;
+  left: 0;
+  top: calc(50% + 15px);
+}
+.result1 {
+  grid-area: result1;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid 385e71;
+}
+.result1 div {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.result2 {
+  grid-area: result2;
+  display: flex;
+  flex-direction: column;
+}
+.result2 div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 5px;
+}
+.result3 {
+  grid-area: result3;
+  display: flex;
+  flex-direction: column;
+}
+.result3 div {
+  display: flex;
+  justify-content: space-between;
+}
+.result3 div:nth-of-type(2) {
+  margin-top: 15px;
+}
+.result {
+  color: green;
+  font-weight: 600;
+}
+
+.displayContainer {
+  min-height: 210px;
+  position: relative;
+}
+.animationContainer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
