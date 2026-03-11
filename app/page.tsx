@@ -28,7 +28,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className="containerMain">
       <form id="formRedditoAnnuo" onSubmit={calcRal}>
         <div className="inputContainerAnnuo">
           <input
