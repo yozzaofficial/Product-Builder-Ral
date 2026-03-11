@@ -40,6 +40,7 @@
   background-color: #b6d2f6;
   border-radius: 10px;
   margin-top: 50px;
+  max-width: 450px;
   padding: 10px;
 }
 .resultHeader {
@@ -61,7 +62,6 @@
   margin-top: 20px;
   padding: 20px 10px;
   color: white;
-  text-align: left;
 }
 .emptyResult {
   opacity: 0.6;
@@ -69,7 +69,7 @@
 .filterContract {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   gap: 50px;
 }
 .filterName {
@@ -94,14 +94,14 @@
 .monthFilter {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   gap: 50px;
   margin-top: 30px;
 }
 .cityFilter {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   gap: 50px;
   margin-top: 30px;
 }
