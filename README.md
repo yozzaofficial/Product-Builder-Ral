@@ -12,3 +12,5 @@ TFR (severance pay)
 Supports monthly net calculation with 13, or 14 pays
 
 Designed to estimate realistic take-home pay for different income levels while respecting Italian tax rules.
+
+https://product-builder-ral.netlify.app/
